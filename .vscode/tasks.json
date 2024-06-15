@@ -6,6 +6,7 @@
             "label": "C/C++: g++.exe build active file",
             "command": "C:/msys64/ucrt64/bin/g++.exe",
             "args": [
+                "-fdiagnostics-color=always",
                 "-g",
                 "-std=c++17",
                 "-I${workspaceFolder}/include",
@@ -14,10 +15,10 @@
                 "${workspaceFolder}/src/glad.c",
                 "-lglfw3dll",
                 "-o",
-                "${workspaceFolder}/program.exe"
+                "${workspaceFolder}/bin/program.exe"
             ],
             "options": {
-                "cwd": "${workspaceFolder}"
+                "cwd": "C:/msys64/ucrt64/bin"
             },
             "problemMatcher": [
                 "$gcc"
@@ -26,7 +27,7 @@
                 "kind": "build",
                 "isDefault": true
             },
-            "detail": "Build the program"
+            "detail": "Build task."
         }
     ]
 }
