@@ -7,15 +7,6 @@ void framebuffer_size_callback(GLFWwindow* window, int width, int height)
     glViewport(0, 0, width, height);
 }
 
-/*
-git init
-git add .
-git commit -m "init"
-git branch -M main
-git remote add origin https://github.com/itsjames212/opengl-cpp-template.git
-git push -u origin main
-*/
-
 int main()
 {
     if (!glfwInit())
