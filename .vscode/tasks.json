@@ -3,7 +3,7 @@
 	"tasks": [
         {
             "type": "cppbuild",
-            "label": "C/C++: g++.exe build active file",
+            "label": "C/C++: g++.exe build src directory",
             "command": "C:/msys64/ucrt64/bin/g++.exe",
             "args": [
                 "-fdiagnostics-color=always",
@@ -27,7 +27,7 @@
                 "kind": "build",
                 "isDefault": true
             },
-            "detail": "Build task."
+            "detail": "Task to build the project"
         }
     ]
 }
