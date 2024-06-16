@@ -15,7 +15,7 @@
                 "${workspaceFolder}/src/glad.c",
                 "-lglfw3dll",
                 "-o",
-                "${workspaceFolder}/bin/program.exe"
+                "${workspaceFolder}/bin/build.exe"
             ],
             "options": {
                 "cwd": "C:/msys64/ucrt64/bin"
